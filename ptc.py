@@ -8,11 +8,11 @@ import shutil
 from telethon import TelegramClient
 from telethon.tl.functions.messages import RequestWebViewRequest
 
-API_ID = 28752231  
-API_HASH = "ec1c1f2c30e2f1855c3edee7e348480b"
+API_ID = 39013074  
+API_HASH = "f855b33fdd2797a6c8d1fa621b195011"
 BOT_USERNAME = "pitbullcoinbot"
 URL_WEBVIEW = "https://pitcoin.onrender.com"
-REF_CODE = "8973220376"
+REF_CODE = "6651107551"
 
 INIT_DATA_CACHE = {}
 
