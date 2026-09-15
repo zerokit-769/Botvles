@@ -25,7 +25,7 @@ def show_banner(account_info=None):
     clear_screen()
     print(f"{C.MAGENTA}{C.BOLD}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━{C.RESET}")
     print(f"{C.CYAN}{C.BOLD}          🎬  D R A M A   W A T C H   E P I S O D E        {C.RESET}")
-    print(f"{C.BLUE}{C.BOLD}                   By SYNDICATEBOT NET 🔥                        {C.RESET}")
+    print(f"{C.BLUE}{C.BOLD}                   By ZeinthHub Project                      {C.RESET}")
     if account_info:
         print(f"{C.YELLOW}{C.BOLD}   👤 Account : {account_info}{C.RESET}")
     print(f"{C.MAGENTA}{C.BOLD}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━{C.RESET}\n")
