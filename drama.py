@@ -125,7 +125,7 @@ def main():
 
     cool_loading("Fetching drama list from server...", 2)
     try:
-        dramas_api_url = "https://drama.center/api/dramas?sort=popular&limit=1000&language=en"
+        dramas_api_url = "https://drama.center/api/dramas?sort=popular&limit=10000&language=en"
         res = requests.get(dramas_api_url, headers=headers)
         dramas_data = res.json().get('data', [])
         
