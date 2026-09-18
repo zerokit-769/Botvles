@@ -25,7 +25,7 @@ def show_banner(account_info=None):
     clear_screen()
     print(f"{C.MAGENTA}{C.BOLD}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━{C.RESET}")
     print(f"{C.CYAN}{C.BOLD}          🎬  D R A M A   W A T C H   E P I S O D E        {C.RESET}")
-    print(f"{C.BLUE}{C.BOLD}                   By ZeinthHub Project                      {C.RESET}")
+    print(f"{C.BLUE}{C.BOLD}                   By SYNDICATEBOT NET 🔥                        {C.RESET}")
     if account_info:
         print(f"{C.YELLOW}{C.BOLD}   👤 Account : {account_info}{C.RESET}")
     print(f"{C.MAGENTA}{C.BOLD}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━{C.RESET}\n")
@@ -125,7 +125,7 @@ def main():
 
     cool_loading("Fetching drama list from server...", 2)
     try:
-        dramas_api_url = "https://drama.center/api/dramas?sort=popular&limit=10000&language=en"
+        dramas_api_url = "https://drama.center/api/dramas?sort=popular&limit=1000&language=en"
         res = requests.get(dramas_api_url, headers=headers)
         dramas_data = res.json().get('data', [])
         
